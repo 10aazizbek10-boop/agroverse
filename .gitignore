@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# База данных
+*.db
+*.sqlite
+
+# Система
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
