@@ -1,5 +1,5 @@
 // Берём тот же хост, что и у сайта (localhost или 127.0.0.1) — чтобы не ловить CORS
-const BASE_URL = `http://${location.hostname || '127.0.0.1'}:8000`;
+const BASE_URL = `https://agroverse-production.up.railway.app`;
 
 function getToken() {
   return localStorage.getItem('access_token');
